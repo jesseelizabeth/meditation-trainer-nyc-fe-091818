@@ -3,22 +3,25 @@
 // on click change the text
 // when button says finished, record time of breath in breath log 
 
-function buttonFunction() {
+const clicks = 0
+const buttonText = {
+  'START INHALE'
+  'INHALE COMPLETE'
+  'START EXHALE'
+  'FINISHED'
+}
+const instructionsText = {
+  
+}
+
+function buttonClicked() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  console.log(event)
-  for (i = 0; i < 4; i+=4) {
-    button.innerText = 'INHALE DONE'
-    instructions.innerText = 'In and out, nice and slow'
-  }
-  for (i = 0; i < 4; i+=3) {
-    button.innerText = 'EXHALE DONE'
-    instructions.innerText = 'Remember your mantra'
-  }
+  button.innerText = buttonText[clicks]
 
 }
 
-button.addEventListener('click', buttonFunction)
+button.addEventListener('click', buttonClicked)
 
 
 // function buttonFunction() {
