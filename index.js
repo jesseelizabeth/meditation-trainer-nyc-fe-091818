@@ -19,7 +19,7 @@ function buttonClicked() {
   console.log(event)
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  if (button == true) {
+  if (clicks === 0) {
     button.innerText = buttonText[clicks]
     clicks = clicks + 1
   }
