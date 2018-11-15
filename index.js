@@ -4,15 +4,23 @@
 // when button says finished, record time of breath in breath log 
 
 function buttonFunction() {
-  const input = document.querySelector('#new-breath')
-  const newBreath = input.duration
-  const breathLog = document.querySelector('#breath-log')
-  const listItem = document.createElement('li')
-  listItem.innerText = newBreath
-  breathLog.appendChild(listItem)
+  const button = document.querySelector('#button')
   
 }
 
-const button = document.querySelector('#button')
 button.addEventListener('click', buttonFunction)
-button.innerText = 'INHALE DONE'
+
+
+// function buttonFunction() {
+//   const input = document.querySelector('#new-breath')
+//   const newBreath = input.duration
+//   const breathLog = document.querySelector('#breath-log')
+//   const listItem = document.createElement('li')
+//   listItem.innerText = newBreath
+//   breathLog.appendChild(listItem)
+  
+// }
+
+// const button = document.querySelector('#button')
+// button.addEventListener('click', buttonFunction)
+// button.innerText = 'INHALE DONE'
