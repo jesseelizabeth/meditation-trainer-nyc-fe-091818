@@ -10,15 +10,15 @@ const buttonText = [
   'START EXHALE',
   'FINISHED',
 ]
-const instructionsText = {
+// const instructionsText = {
   
-}
+// }
 
 function buttonClicked() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
   for (i = 0; i < 4; i++) {
-    button.innerHTML = buttonText[clicks]
+    button.innerText = buttonText[clicks]
     clicks = clicks + 1
   }
 
