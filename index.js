@@ -4,24 +4,24 @@
 // when button says finished, record time of breath in breath log 
 
 
-const buttonText = [
-  'START INHALE',
-  'INHALE COMPLETE',
-  'START EXHALE',
-  'FINISHED',
-]
-// const instructionsText = {
-  
-// }
-
 
 function buttonClicked() {
-  console.log(event)
+  let clicks = 0
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
   if (clicks === 0) {
     button.innerText = 'START INHALE'
-  } else if
+    clicks = 1
+  } else if (clicks === 1) {
+    button.innerText = 'INHALE COMPLETE'
+    clicks = 2
+  } else if (clicks === 2) {
+    button.innerText = 'START EXHALE'
+    clicks = 3
+  } else (clicks === 3) {
+    button.innerText = 'FINISHED'
+    clicks = 0
+  }
 
 }
 
