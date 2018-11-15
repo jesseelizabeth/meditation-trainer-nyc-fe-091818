@@ -19,10 +19,9 @@ function buttonClicked() {
   console.log(event)
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  for (currentClick of clicks) {
-    button.innerText = buttonText[currentClick]
-    currentClick = clicks + 1
-  }
+  if (clicks === 0) {
+    button.innerText = 'START INHALE'
+  } else if
 
 }
 
