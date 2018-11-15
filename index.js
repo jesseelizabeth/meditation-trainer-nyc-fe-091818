@@ -14,10 +14,10 @@ const instructionsText = {
   
 }
 
-function buttonClicked(clicks) {
+function buttonClicked() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  for (i = 0; i < clicks.length; i++) {
+  for (i = 0; i < 10; i++) {
     button.innerText = buttonText[clicks]
   }
 
