@@ -4,12 +4,12 @@
 // when button says finished, record time of breath in breath log 
 
 const clicks = 0
-const buttonText = {
-  'START INHALE'
-  'INHALE COMPLETE'
-  'START EXHALE'
-  'FINISHED'
-}
+const buttonText = [
+  'START INHALE',
+  'INHALE COMPLETE',
+  'START EXHALE',
+  'FINISHED',
+]
 const instructionsText = {
   
 }
