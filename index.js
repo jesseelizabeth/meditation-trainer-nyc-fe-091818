@@ -6,6 +6,10 @@
 function buttonFunction() {
   const button = document.querySelector('#button')
   console.log(event)
+  for (i = 0; i < 10; i++) {
+    button.innerText = 'INHALE DONE, START EXHALE'
+    button.innerText = 'FINISHED'
+  }
 }
 
 button.addEventListener('click', buttonFunction)
