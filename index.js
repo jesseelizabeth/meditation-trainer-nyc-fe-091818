@@ -3,7 +3,7 @@
 // on click change the text
 // when button says finished, record time of breath in breath log 
 
-let clicks = 0
+
 const buttonText = [
   'START INHALE',
   'INHALE COMPLETE',
