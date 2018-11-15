@@ -3,11 +3,11 @@
 // on click change the text
 // when button says finished, record time of breath in breath log 
 
-function buttonFunction(click) {
+function buttonFunction() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
   console.log(event)
-  for (i = 0; i < click.length; i+=4)
+  for (i = 0; i < 4; i+=4)
     button.innerText = 'INHALE DONE'
     instructions.innerText = 'In and out, nice and slow'
 
