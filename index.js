@@ -3,7 +3,7 @@
 // on click change the text
 // when button says finished, record time of breath in breath log 
 
-const clicks = 0
+let clicks = 0
 const buttonText = [
   'START INHALE',
   'INHALE COMPLETE',
@@ -19,6 +19,7 @@ function buttonClicked() {
   const instructions = document.querySelector('#instructions')
   for (i = 0; i < clicks.length; i++) {
     button.innerText = buttonText[clicks]
+    clicks = 1
   }
 
 }
