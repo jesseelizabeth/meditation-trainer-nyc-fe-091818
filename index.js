@@ -9,16 +9,16 @@ function buttonClicked() {
   let clicks = 0
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  if (clicks === 0) {
+  if (clicks == 0) {
     button.innerText = 'START INHALE'
     clicks = 1
-  } else if (clicks === 1) {
+  } else if (clicks == 1) {
     button.innerText = 'INHALE COMPLETE'
     clicks = 2
-  } else if (clicks === 2) {
+  } else if (clicks == 2) {
     button.innerText = 'START EXHALE'
     clicks = 3
-  } else if (clicks === 3) {
+  } else if (clicks == 3) {
     button.innerText = 'FINISHED'
     clicks = 0
   }
