@@ -17,6 +17,7 @@ const instructionsText = {
 function buttonClicked() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
+  clicks += 1
   button.innerText = buttonText[clicks]
 
 }
