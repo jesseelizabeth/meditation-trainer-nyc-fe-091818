@@ -19,9 +19,9 @@ function buttonClicked() {
   console.log(event)
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
-  if (clicks === 0) {
-    button.innerText = buttonText[clicks]
-    clicks = clicks + 1
+  for (currentClick of clicks) {
+    button.innerText = buttonText[currentClick]
+    currentClick = clicks + 1
   }
 
 }
