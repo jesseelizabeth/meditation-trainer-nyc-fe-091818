@@ -11,6 +11,10 @@ function buttonFunction() {
     button.innerText = 'INHALE DONE'
     instructions.innerText = 'In and out, nice and slow'
   }
+  for (i = 0; i < 4; i+=3) {
+    button.innerText = 'EXHALE DONE'
+    instructions.innerText = 'Remember your mantra'
+  }
 
 }
 
