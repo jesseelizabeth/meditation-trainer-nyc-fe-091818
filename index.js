@@ -18,11 +18,10 @@ function buttonClicked() {
   } else if (clicks === 2) {
     button.innerText = 'START EXHALE'
     clicks = 3
-  } else (clicks === 3) {
+  } else if (clicks === 3) {
     button.innerText = 'FINISHED'
     clicks = 0
   }
-
 }
 
 button.addEventListener('click', buttonClicked)
