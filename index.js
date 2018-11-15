@@ -5,11 +5,11 @@
 
 function buttonFunction() {
   const button = document.querySelector('#button')
+  const instructions = document.querySelector('#instructions')
   console.log(event)
-  for (i = 0; i < 10; i++) {
-    button.innerText = 'INHALE DONE, START EXHALE'
-    button.innerText = 'FINISHED'
-  }
+  button.innerText = 'INHALE DONE'
+  instructions.innerText = 'In and out, nice and slow'
+
 }
 
 button.addEventListener('click', buttonFunction)
