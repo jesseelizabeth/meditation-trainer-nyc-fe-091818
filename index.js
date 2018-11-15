@@ -5,7 +5,7 @@
 
 function buttonFunction() {
   const button = document.querySelector('#button')
-  
+  console.log(event)
 }
 
 button.addEventListener('click', buttonFunction)
