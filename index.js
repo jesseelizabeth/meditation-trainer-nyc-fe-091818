@@ -14,6 +14,8 @@ const buttonText = [
   
 // }
 
+console.log(buttonText)
+
 function buttonClicked() {
   const button = document.querySelector('#button')
   const instructions = document.querySelector('#instructions')
